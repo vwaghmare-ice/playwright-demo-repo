@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('check if localhost:5001 is running successfully', async ({ page }) => {
-  await page.goto('https://localhost:5002');
+  await page.goto('https://localhost:5001');
   await expect(page).toBeTruthy();
 });
 
